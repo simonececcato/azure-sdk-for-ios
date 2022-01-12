@@ -1,6 +1,6 @@
 {
   "name": "AzureStorageBlob",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-beta.2",
   "summary": "Azure Storage Blob service client library for iOS",
   "description": "This package contains the Azure Storage Blob service library.",
   "homepage": "https://github.com/Azure/azure-sdk-for-ios/tree/main/sdk/storage/AzureStorageBlob",
@@ -27,4 +27,5 @@
     ]
   },
   "swift_version": "5.0"
+  "frameworks": "CoreData"
 }
