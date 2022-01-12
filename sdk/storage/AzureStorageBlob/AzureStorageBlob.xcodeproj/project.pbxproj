@@ -58,7 +58,7 @@
 		7AED8C7924AC0E1200B2CB93 /* ClientMethodOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AED8C7824AC0E1200B2CB93 /* ClientMethodOptions.swift */; };
 		7AED8C7B24AC0E2200B2CB93 /* OptionsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AED8C7A24AC0E2200B2CB93 /* OptionsModels.swift */; };
 		D7A593CE278F1D4B00DD4DB5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A593CC278F1D1800DD4DB5 /* CoreData.framework */; };
-		D7A593CF278F1D4B00DD4DB5 /* CoreData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D7A593CC278F1D1800DD4DB5 /* CoreData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D7A593D1278F263C00DD4DB5 /* CoreData.framework in Headers */ = {isa = PBXBuildFile; fileRef = D7A593CC278F1D1800DD4DB5 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,20 +70,6 @@
 			remoteInfo = AzureStorageBlob;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		D7A593D0278F1D4B00DD4DB5 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				D7A593CF278F1D4B00DD4DB5 /* CoreData.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0A1D0774248833F7001A4016 /* NetworkingPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingPolicy.swift; sourceTree = "<group>"; };
@@ -358,6 +344,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7A593D1278F263C00DD4DB5 /* CoreData.framework in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +361,6 @@
 				0A686486233E834D004B7E17 /* Frameworks */,
 				0A686487233E834D004B7E17 /* Resources */,
 				0A4737AD2397110500DE8AC7 /* Format And Lint */,
-				D7A593D0278F1D4B00DD4DB5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
